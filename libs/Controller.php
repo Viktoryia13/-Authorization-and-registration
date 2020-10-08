@@ -19,7 +19,7 @@ class Controller
 
     public function redirect($view)
     {
-        header("Location:". URL."/$view");
+        header("Location:/$view");
         exit();
     }
 

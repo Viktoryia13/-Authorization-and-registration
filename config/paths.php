@@ -1,3 +1,3 @@
 <?php
-  define('URL', 'http://manao1/');
+ // define('URL', 'http://Authorization-and-registration/');
 ?>

@@ -16,6 +16,7 @@ class Bootstrap
         $url = rtrim($url, '/');
         $url = explode('/', $url);
         $file = 'controllers/' . $url[0] . '.php';
+        
         if (file_exists($file)) {
             require $file;
         } else {
